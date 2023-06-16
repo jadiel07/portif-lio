@@ -25,10 +25,3 @@ aboutIcon.addEventListener("mouseover", () => {
   textContact.classList.remove("active");
   playAudio();
 });
-
-linkedinIcon.addEventListener("mouseover", () => {
-  textAbout.classList.remove("active");
-  textProjects.classList.remove("active");
-  textContact.classList.add("active");
-  playAudio();
-});
